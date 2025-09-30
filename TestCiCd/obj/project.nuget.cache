@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "dgSpecHash": "x/C/VTkFyog=",
+  "success": true,
+  "projectFilePath": "C:\\Repositories\\testcicd\\TestCiCd\\TestCiCd\\TestCiCd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cheryl Hensby\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.9\\microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
+    "C:\\Users\\Cheryl Hensby\\.nuget\\packages\\microsoft.openapi\\1.6.25\\microsoft.openapi.1.6.25.nupkg.sha512",
+    "C:\\Users\\Cheryl Hensby\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\Cheryl Hensby\\.nuget\\packages\\swagger.net\\0.5.4\\swagger.net.0.5.4.nupkg.sha512",
+    "C:\\Users\\Cheryl Hensby\\.nuget\\packages\\swagger.net.ui\\1.1.0\\swagger.net.ui.1.1.0.nupkg.sha512",
+    "C:\\Users\\Cheryl Hensby\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\9.0.5\\swashbuckle.aspnetcore.swagger.9.0.5.nupkg.sha512",
+    "C:\\Users\\Cheryl Hensby\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\9.0.5\\swashbuckle.aspnetcore.swaggergen.9.0.5.nupkg.sha512",
+    "C:\\Users\\Cheryl Hensby\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\9.0.5\\swashbuckle.aspnetcore.swaggerui.9.0.5.nupkg.sha512",
+    "C:\\Users\\Cheryl Hensby\\.nuget\\packages\\webactivator\\1.5.1\\webactivator.1.5.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Swagger.Net 0.5.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Swagger.Net",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebActivator 1.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebActivator",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "SMuFn+5L8cTn0m5CXQTZIr8Gt3LM4NC6jsxTLKadvwc=",
+  "Source": "TestCiCd",
+  "BasePath": "_content/TestCiCd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
