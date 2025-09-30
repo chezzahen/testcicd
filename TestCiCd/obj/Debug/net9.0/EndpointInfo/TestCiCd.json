@@ -10,7 +10,7 @@
         "tags": [
           "TestCiCd"
         ],
-        "operationId": "GetBookItems",
+        "operationId": "GetBooks",
         "responses": {
           "200": {
             "description": "OK"

@@ -4,10 +4,13 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>9fce552d-7463-4e27-9418-2040a99c6047</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Swagger.Net.UI" Version="1.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="9.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="9.0.5" />

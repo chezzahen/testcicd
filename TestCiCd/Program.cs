@@ -13,21 +13,21 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-app.UseSwagger();
-app.UseSwaggerUI();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 
 app.MapGet("/api/books", () =>
 {
-return Results.Ok(BookItem.All);
+    return Results.Ok(BookItem.All);
 })
-.WithName("GetBookItems")
+.WithName("GetBooks")
 .WithOpenApi();
 
 app.Run();
-
+//url https://localhost:44395/api/books
 public class BookItem
 {
     public BookItem(int id, string name)
